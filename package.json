@@ -1,0 +1,19 @@
+{
+	"name": "p5play-template",
+	"version": "1.0.4",
+	"description": "",
+	"main": "sketch.js",
+	"scripts": {
+		"v": "npm version patch --force",
+		"V": "npm version minor --force",
+		"version": "git add -A",
+		"postversion": "git push"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"p5": "^1.7.0",
+		"p5play": "^3.10.0",
+		"q5": "^1.2.1"
+	}
+}
