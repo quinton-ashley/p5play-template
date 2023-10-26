@@ -1,6 +1,6 @@
 {
 	"name": "p5play-template",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"description": "",
 	"main": "sketch.js",
 	"scripts": {
@@ -12,9 +12,9 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@types/p5": "^1.7.0",
-		"p5": "^1.7.0",
-		"p5play": "^3.13.4",
-		"q5": "^1.2.6"
+		"@types/p5": "^1.7.1",
+		"p5": "^1.8.0",
+		"p5play": "^3.15.0",
+		"q5": "^1.5.1"
 	}
 }

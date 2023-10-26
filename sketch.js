@@ -8,5 +8,5 @@ function setup() {
 }
 
 function draw() {
-	background('gray');
+	background('skyblue');
 }
