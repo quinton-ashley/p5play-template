@@ -1,6 +1,6 @@
 {
 	"name": "p5play-template",
-	"version": "1.1.5",
+	"version": "1.1.6",
 	"description": "",
 	"main": "sketch.js",
 	"scripts": {
@@ -14,7 +14,7 @@
 	"dependencies": {
 		"@types/p5": "^1.7.4",
 		"p5": "^1.9.0",
-		"p5play": "^3.18.8",
-		"q5": "^1.9.0"
+		"p5play": "^3.18.12",
+		"q5": "^1.9.2"
 	}
 }
