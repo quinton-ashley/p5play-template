@@ -9,4 +9,9 @@ function setup() {
 
 function draw() {
 	background('skyblue');
+
+	if (mouse.presses()) {
+		ball.speed = 10;
+		ball.moveTo(mouse);
+	}
 }
