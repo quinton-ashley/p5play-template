@@ -2,6 +2,7 @@ let ball;
 
 function setup() {
 	new Canvas(500, 500);
+	displayMode('centered');
 
 	ball = new Sprite();
 	ball.diameter = 50;
