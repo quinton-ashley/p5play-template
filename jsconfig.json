@@ -2,5 +2,7 @@
 	"compilerOptions": {
 		"target": "ESNext"
 	},
-	"include": ["*.js", "**/*.js", "node_modules/q5/q5.d.ts", "node_modules/p5play/p5play.d.ts"]
+	"typeAcquisition": {
+		"include": ["node_modules/q5", "node_modules/p5play"]
+	}
 }
