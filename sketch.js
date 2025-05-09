@@ -1,30 +1,31 @@
-let q = await Q5.WebGPU();
+new Q5();
 
 new Canvas();
 world.gravity.y = 10;
 
 let ball = new Sprite();
-ball.x = -200;
-ball.y = -200;
+ball.x = halfWidth - 200;
+ball.y = halfHeight - 200;
 ball.diameter = 50;
 
 let groundA = new Sprite();
-groundA.x = -120;
+groundA.x = halfWidth - 120;
 groundA.width = 200;
 groundA.rotation = 20;
 groundA.collider = STATIC;
 
 let groundB = new Sprite();
-groundB.x = 120;
+groundB.x = halfWidth + 120;
 groundB.width = 200;
 groundB.rotation = -20;
 groundB.collider = STATIC;
 
-q.update = () => {
+function update() {
 	background('skyblue');
 
 	textAlign(CENTER);
-	text('click to jump!', 0, -100);
+	textSize(20);
+	text('click to jump!', halfWidth, halfHeight - 100);
 
 	if (mouse.presses()) ball.vel.y = -5;
-};
+}
