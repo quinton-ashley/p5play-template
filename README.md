@@ -2,7 +2,7 @@
 
 Visit <https://p5play.org> to learn how to use p5play.
 
-This folder contains a basic p5play template to help get you started on your own p5play project! 😃🎮
+This folder contains a basic p5play + [q5.js](https://q5js.org) template to help get you started on your own p5play project! 😃🎮
 
 ## Contents
 

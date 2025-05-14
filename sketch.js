@@ -12,13 +12,13 @@ let groundA = new Sprite();
 groundA.x = halfWidth - 120;
 groundA.width = 200;
 groundA.rotation = 20;
-groundA.collider = STATIC;
+groundA.physics = STATIC;
 
 let groundB = new Sprite();
 groundB.x = halfWidth + 120;
 groundB.width = 200;
 groundB.rotation = -20;
-groundB.collider = STATIC;
+groundB.physics = STATIC;
 
 function update() {
 	background('skyblue');
